@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "car_classifier"
+version = "0.1.0"
+description = "car-classifier project for test junior cv-engineer task"
+authors = ["mariyashcheg"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+torch = "1.7.0"
+scikit-learn = "0.22.2"
+pathlib2 = "^2.3.5"
+matplotlib = "3.2.2"
+torchvision = "0.8.1"
+opencv-python = "^4.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
